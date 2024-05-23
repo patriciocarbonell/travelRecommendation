@@ -97,5 +97,5 @@ function displayResults() {
 function clearResults() {
     divPresentation.innerHTML = "";
     searchInput.value = "";
-    window.location.href = "travel_recommendation.html"
+    window.location.href = "index.html"
 }
