@@ -1,0 +1,130 @@
+body {
+    background-image: url("https://cdn.colombia.com/sdi/2023/10/31/reservar-con-antelacion-es-la-estrategia-de-conseguir-vuelos-economicos-1200846.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;  /* Fixed position */
+    top: 0;           /* Align to the top */
+    width: 100%;      /* Full width */
+    z-index: 1000;    /* Ensure it is on top of other elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(56, 60, 108);
+    padding: 10px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(84, 11, 84);
+    border-radius: 5px;
+}
+
+.navSearch {
+    display: flex;
+    gap: 10px;
+}
+
+.navSearch input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+.navSearch input:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navSearch button {
+    padding: 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #383c6c;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navSearch button:hover {
+    background-color: rgb(186, 186, 186);
+    box-shadow: 0 0 10px rgb(84, 11, 84);
+}
+
+.navSearch button:active {
+    transform: scale(0.95);
+}
+
+.presentation {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.presentation h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.presentation h6 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.divFormContact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 8px 70px;
+}
+
+form textarea {
+    padding: 70px;
+}
+
+#submitContact {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #383c6c;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.imgRecomendations {
+    width: 460px;
+}
